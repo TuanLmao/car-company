@@ -1,0 +1,168 @@
+BODY {
+    margin: 0px;
+    padding: 0px 225px;
+    font-size: 13px;
+    font-family: arial;
+    color: #ffffff;
+    background-repeat: repeat-x;
+    background-color: #302f2a;
+}
+
+.outer {
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Định dạng tên Cty */
+#logo-bg {
+    width: 320px;
+    height: 195px;
+    padding-left: 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#logo-bg p {
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    margin: 0px;
+}
+.outer2{
+    background: linear-gradient(
+      to bottom, /* Hướng chuyển màu từ trên xuống dưới */
+      #FFDDC1, /* Màu trắng cam nhạt ở trên cùng */
+      #ffe600 20%, /* Màu cam đậm chính, bắt đầu từ 20% */
+      #ffe600 80%, /* Giữ màu cam đậm đến 80% */
+      #FFDDC1  /* Kết thúc bằng màu trắng cam nhạt ở dưới cùng */
+    );
+    display: flex;
+    align-items: center;
+}
+.outer2 ul{
+    display: flex;
+    list-style-type: none;
+    font-weight:800;
+    padding-left: 20px;
+}
+.outer2 ul li{
+    text-decoration: none;
+}
+.outer2 ul li a{
+    color: black;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.duongkephancach{
+    border-right: 2px gray solid;
+}
+.main{
+    background-color: rgb(85, 79, 79);
+    display:flex;
+}
+.cottrai{
+    padding-right: 5px;
+    width: 300px;
+    height: auto;
+    border-right: 2px solid black;
+}
+.cottrai h3{
+    padding-left: 10px;
+}
+.carname{
+    color: #ffe600;
+    background-color: rgb(139, 56, 0);
+    font-weight: bold;
+    padding: 5px 5px;
+}
+.cottrai img{
+    width: 150px;
+    height: auto;
+    padding: 25px 15px;
+}
+.phantucottrai{
+    margin: 10px 10px;
+    background-color:rgb(58, 53, 53);
+    width: 180px;
+}
+
+
+.phantucottrai p{
+    padding: 0px 10px 5px;
+    margin: 0px 0px;
+    text-align: justify;
+}
+.phantucottrai a{
+    color: #ffc400;
+}
+.readmore{
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: #ffc400;
+}
+.readmore2{
+    text-align: right;
+}
+.readmore2 a{
+    color: #ffc400;
+}
+.cotphai{
+    padding-left:20px;
+    padding-right: 20px;
+}
+.tinhnangxe{
+    background-color: rgb(39, 39, 39);
+    color: #ffe600;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+.noidungxe{
+    display: flex;;
+}
+.noidungxe img{
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+.cotphai h3{
+    margin-top:0px;
+    padding: 10px 5px;
+}
+.cotphai p{
+    text-align: justify;
+}
+.outer3{
+    display: flex;
+    align-items: center;
+}
+.outer3 ul{
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.outer3 ul li{
+    text-decoration: none;
+}
+.outer3 ul li a{
+    color:gray;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+}
+.footer p a{
+    color: #ffc400;
+}
